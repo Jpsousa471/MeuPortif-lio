@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./projetos.css">
+    <title>Projetos</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="first-container">
+            <header>
+                <span class="placard">Meus Projetos ↓↓</span>
+            </header>
+        </div>
+
+       <div class="cards">
+            <div class="card" onclick="openModal(0)">
+                <img src="./assets/Captura de tela 2024-05-21 190537.png" />
+            </div>
+            <div class="card" onclick="openModal(1)">
+                <img src="./assets/calculadora.png">
+            </div>
+            <div class="card" onclick="openModal(2)">
+                <img src="./assets/Captura de tela 2024-05-21 190442.png" />
+            </div>
+            </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modal-img" src="" alt="" />
+                <button id="prev-btn" onclick="prevImage()">Anterior</button>
+                <button id="next-btn" onclick="nextImage()">Próxima</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./projects.js"></script>
+</body>
+</html>
