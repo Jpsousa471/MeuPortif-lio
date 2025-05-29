@@ -5,18 +5,23 @@ const images = [
     { src: './assets/tresCards.png', alt: 'Imagem 3' },
   ],
   [
-    { src: './assets/calculadora.png', alt: 'Imagem 1' },
-    { src: './assets/calculadora.png', alt: 'Imagem 2' },
-    { src: './assets/calculadora.png', alt: 'Imagem 3' },
+    { src: './assets/advinha.png', alt: 'Imagem 1' },
+    { src: './assets/advinha2.png', alt: 'Imagem 2' },
+    { src: './assets/advinha3.png', alt: 'Imagem 3' },
   ],
   [
     { src: './assets/Captura de tela 2024-05-21 190442.png', alt: 'Imagem 1' },
     { src: './assets/personT.png', alt: 'Imagem 2' },
     { src: './assets/planeta.png', alt: 'Imagem 3' },
-    { src: './assets/planetaT.png', alt: 'Imagem 1' },
-    { src: './assets/Nave.png', alt: 'Imagem 2' },
-    { src: './assets/naveT.png', alt: 'Imagem 3' },
+    { src: './assets/planetaT.png', alt: 'Imagem 4' },
+    { src: './assets/Nave.png', alt: 'Imagem 5' },
+    { src: './assets/naveT.png', alt: 'Imagem 6' },
 ],
+[
+    { src: './assets/Calendario.png', alt: 'Imagem 1' },
+    { src: './assets/Calendario2.png', alt: 'Imagem 2' },
+    { src: './assets/Calendario3.png', alt: 'Imagem 3' },
+  ],
 ];
 
 let currentImageIndex = 0;
@@ -49,3 +54,4 @@ function nextImage() {
 document.getElementsByClassName('close')[0].addEventListener('click', function() {
   document.getElementById('modal').style.display = 'none';
 });
+

@@ -53,6 +53,25 @@ header {
     width: 200px;
     height: 150px;
     object-fit: cover;
+    box-shadow: 10px 10px 5px black;
+
+}
+
+.text {
+    width: 200px;
+    height: 150px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 5px black;
+    font-size: 12px; 
+}
+
+p {
+    margin-left: 15px;
 }
 
 .modal {
@@ -68,10 +87,11 @@ header {
 
 .modal-content {
     position: relative;
-    margin: 15% auto;
+    margin: 10% auto;
     padding: 20px;
     width: 80%;
-    max-width: 800px;
+    max-width: 900px;
+    height: 400px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
