@@ -14,7 +14,7 @@ const images = [
     { src: './assets/personT.png', alt: 'Imagem 2' },
     { src: './assets/planeta.png', alt: 'Imagem 3' },
     { src: './assets/planetaT.png', alt: 'Imagem 1' },
-    { src: './assets/nave.png', alt: 'Imagem 2' },
+    { src: './assets/Nave.png', alt: 'Imagem 2' },
     { src: './assets/naveT.png', alt: 'Imagem 3' },
 ],
 ];
