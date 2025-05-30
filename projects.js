@@ -22,6 +22,28 @@ const images = [
     { src: './assets/Calendario2.png', alt: 'Imagem 2' },
     { src: './assets/Calendario3.png', alt: 'Imagem 3' },
   ],
+  [
+    { src: './assets/trocarCor (1).png', alt: 'Imagem 1' },
+    { src: './assets/trocarCor (2).png', alt: 'Imagem 2' },
+    { src: './assets/trocarCor (3).png', alt: 'Imagem 3' },
+    { src: './assets/trocarCor (4).png', alt: 'Imagem 4' },
+  ],
+  [
+    { src: './assets/aleatorias (1).png', alt: 'Imagem 1' },
+    { src: './assets/aleatorias (2).png', alt: 'Imagem 2' },
+    { src: './assets/aleatorias (3).png', alt: 'Imagem 3' },
+  ],
+   [
+    { src: './assets/youtube (1).png', alt: 'Imagem 1' },
+    { src: './assets/youtube (9).png', alt: 'Imagem 2' },
+    { src: './assets/youtube (2).png', alt: 'Imagem 3' },
+    { src: './assets/youtube (3).png', alt: 'Imagem 4' },
+    { src: './assets/youtube (4).png', alt: 'Imagem 5' },
+    { src: './assets/youtube (5).png', alt: 'Imagem 6' },
+    { src: './assets/youtube (6).png', alt: 'Imagem 7' },
+    { src: './assets/youtube (7).png', alt: 'Imagem 8' },
+    { src: './assets/youtube (8).png', alt: 'Imagem 9' },
+  ],
 ];
 
 let currentImageIndex = 0;

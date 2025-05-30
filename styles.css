@@ -196,9 +196,9 @@ li:hover {
     align-items: center;
     background-image: url('./assets/800px_COLOURBOX24217133.jpg');
     background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .project-content {
