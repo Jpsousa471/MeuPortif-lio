@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tecnologias.css">
+    <title>Document</title>
+</head>
+<body>
+        
+    <div class="principal">
+        <div class="head">
+            <div class="back"> 
+                <a href="./index.html">
+                     <i class="fa-solid fa-arrow-left"></i>
+                </a>
+            </div>
+
+            <div class="title">
+                <span>Tecnologias aprendidas até o momento →</span>
+            </div>
+        </div>
+
+        <div class="second">
+            <div class="one">
+
+                <div class="html" onclick="openModal(0)">
+                    <img src="./assets/icons/html-5.png" alt="Nope" />
+                    <p>Tecnologia 100% dominada</p>
+                </div>
+
+                <div class="css" onclick="openModal(1)"">
+                    <img src="./assets/icons/css-3.png" alt="Nope" />
+                    <img id="cs2" src="./assets/icons/css-3.png" alt="Nope" />
+                    <p class="s">Tecnologia 90% dominada</p>
+                </div>
+
+                <div class="js" onclick="openModal(2)">
+                    <img src="./assets/icons/js.png" alt="Nope" />
+                    <img id="js2" src="./assets/icons/js.png" alt="Nope" />
+                    <p>Tecnologia 90% dominada</p>
+                </div>
+            </div>
+
+             <div class="two">
+
+                 <div class="type" onclick="openModal(3)">
+                    <img class="meio" src="./assets/icons/ts.png" alt="Nope" />
+                    <img id="meio2" src="./assets/icons/ts.png" alt="Nope" />
+                    <p>Tecnologia 50% dominada</p>
+                </div>
+
+                <div class="react" onclick="openModal(4)">
+                    <img class="meio" src="./assets/icons/react.png" alt="Nope" />
+                    <img id="meio2" src="./assets/icons/react.png" alt="Nope" />
+                    <p>Tecnologia 50% dominada</p>
+                </div>
+
+                 <div class="node" onclick="openModal(5)">
+                    <img class="trpor" src="./assets/icons/nodejs.png" alt="Nope" />
+                    <img id="trpor" src="./assets/icons/nodejs.png" alt="Nope" />
+                    <p>Tecnologia 30% dominada</p>
+                </div>
+
+                 <div class="sql" onclick="openModal(6)">
+                    <img class="dez" src="./assets/icons/servidor-sql.png" alt="Nope" />
+                    <img id="dez" src="./assets/icons/servidor-sql.png" alt="Nope" />
+                    <p>Tecnologia 10% dominada</p>
+                </div>
+
+            </div>
+
+             <div class="trhee">
+                aaa
+            </div>
+        </div>
+
+        <div class="modal" id="modal">
+            <div modal-content>
+                <span class="close">&times;</span>
+                <img id="modal-img" src="" alt="" />
+                <p id="modal-text"></p>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    <script src="https://kit.fontawesome.com/973acb6ab7.js" crossorigin="anonymous"></script>
+    <script src="./tecnologias.js"></script>
+
+</body>
+</html>

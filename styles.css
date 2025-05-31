@@ -47,6 +47,8 @@ li {
 
 li:hover {
     color: #D870DB;
+    transform: scale(1.08);
+    transition: 1s;
 }
 
 .arrows {
@@ -158,6 +160,11 @@ li:hover {
     font-family: 'Oswald', sans-serif;
     margin-top: 35px;
     cursor: pointer;
+}
+
+.profile-button:hover{
+    transform: scale(1.10);
+    transition: 1s;
 }
 
 .divider {
