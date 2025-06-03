@@ -269,6 +269,18 @@ p {
    filter: grayscale(100);
 }
 
+.git-hub{
+   width: 150px;
+   height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   position: fixed;
+}
+
 .modal {
     display: none;
     position: fixed;
@@ -307,16 +319,49 @@ p {
   border-radius: 50%;
 }
 
+.para {
+    font-size: 12px;
+}
+
+.python{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.ruby, .cmais, .bash, .java {
+    margin-left: 250px;
+}
+
+.php, .chash, .scala{
+    margin-left: 50px;
+}
+
+.zero {
+  width: 45px;
+   height: 45px;
+   position: absolute;
+   clip-path: inset(0 100% 0 0 );
+   color: #000;
+}
+
+#zero2 {
+   position: absolute;
+   clip-path: inset(0 0 0 0%);
+   color: #ccc;
+   filter: grayscale(100);
+}
+
+
 #modal-img {
-    top: 55px;
-    left: 700px;
+    top: 15px;
+    left: 720px;
     width: 100px;
     height: 100px;
     background-size: cover;
 }
 
 #modal-text {
-    margin-top: 180px;
+    margin-top: 130px;
     margin-left: 500px;
     font-size: 30px;
     width: 500px;
@@ -326,5 +371,158 @@ p {
     padding: 10px;
     border: 3px solid #fff;
     border-radius: 10px;
+    padding: 20px;
     font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width: 820px) {
+
+    .head{
+        width: 250px;
+        height: 100px;
+    }
+
+    .title {
+        margin-left: 25px;
+        margin-bottom: 50px;
+    }
+
+    .one, .two, .trhee {
+        width: 250px;
+        position: relative;
+    }
+
+    .html {
+      right: 100px;
+    }
+
+    .css, .js {
+         position: relative;
+         right: 100px;
+    }
+
+    .type, .node, .git-hub {
+        left: 200px;
+    }
+
+    .react, .sql {
+        right: 320px;
+    }
+
+    .ruby, .cmais, .bash, .java {
+        margin-left: 100px;
+    }
+
+    .python, .php, .chash, .scala{
+        margin-left: 20px;
+    }
+
+    
+    #modal-img {
+        top: 15px;
+        left: 350px;
+    }
+
+    #modal-text {
+        margin-top: 130px;
+        margin-left: 130px;
+    }
+
+}
+
+@media ( max-width: 480px ) {
+
+     .head{
+        width: 150px;
+        height: 50px;
+    }
+
+    .title{
+        margin-top: 80px;
+    }
+
+    span {
+        font-size: 10px;
+    }
+
+    .back {
+        width: 25px;
+        height: 25px;
+    }
+
+     .one, .two, .trhee {
+        width: 160px;
+        position: relative;
+    }
+
+    img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .meio, .trpor, .dez, .zero {
+         width: 25px;
+         height: 25px;
+    }
+
+    p {
+        font-size: 10px;
+        margin-left: 60px;
+    }
+
+    .html, .css, .js{ 
+        right: 150px;
+    }
+
+      .type, .node, .git-hub {
+        left: 70px;
+        
+    }
+
+    .react, .sql {
+        right: 150px;
+    }
+
+    .para{ 
+        font-size: 10px;
+        margin-left: 30px;
+    }
+
+     .ruby, .cmais, .bash, .java {
+        margin-left: 50px;
+    }
+
+    .python, .php, .chash, .scala{
+        margin-left: 10px;
+    }
+
+    #modal-img {
+        left: 200px;
+    }
+
+    #modal-text {
+        width: 280px;
+        margin-left: 80px;
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 393px) {
+
+    .one, .two, .trhee {
+        width: 130px;
+        position: relative;
+    }
+
+     #modal-img {
+        left: 150px;
+    }
+
+    #modal-text {
+        width: 280px;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+
 }
