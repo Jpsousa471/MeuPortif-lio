@@ -476,7 +476,6 @@ p {
 
       .type, .node, .git-hub {
         left: 70px;
-        
     }
 
     .react, .sql {
@@ -511,18 +510,50 @@ p {
 @media (max-width: 393px) {
 
     .one, .two, .trhee {
-        width: 130px;
-        position: relative;
+        width: 110px;
     }
 
+     .html, .css, .js{ 
+        right: 160px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+      .type, .node, .git-hub {
+        left: 70px;
+        position: fixed;
+    }
+
+
+    .para{ 
+        font-size: 8px;
+        margin-left: 30px;
+    }
+
+     .ruby, .cmais, .bash, .java {
+        margin-left: 40px;
+    }
+
+    .python, .php, .chash, .scala{
+        margin-left: 10px;
+    }
+
+
      #modal-img {
-        left: 150px;
+        left: 140px;
     }
 
     #modal-text {
         width: 280px;
-        margin-left: 30px;
+        margin-left: 25px;
         font-size: 18px;
     }
 
+    .close {
+        right: 20px;
+    }
+
 }
+
