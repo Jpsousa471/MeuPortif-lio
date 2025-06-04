@@ -62,7 +62,7 @@ li:hover {
     fill: transparent;
     stroke-width: 1px;
     animation: arrow 2s infinite;
- -webkit-animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
 }
 
 @keyframes arrow

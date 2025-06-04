@@ -15,8 +15,21 @@
     justify-content: center;
     align-items: center;
     background-color: #c2c2c2;
-
+    position: relative;
 }
+
+.home {
+   margin-bottom: 670px;
+   margin-right: 1400px;
+   font-size: 20px;
+   background-color: #3d004d;
+   color: #fff;
+   padding: 10px;
+   border-radius: 5px;
+   font-family: 'Oswald', sans-serif;
+}
+
+
 
 .box {
     width: 500px;
@@ -28,6 +41,7 @@
     align-items: center;
     padding: 30px;
     cursor: pointer;
+    position: fixed;
 }
 
 img {
