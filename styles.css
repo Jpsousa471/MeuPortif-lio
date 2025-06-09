@@ -288,7 +288,7 @@ li:hover {
     }
 
     .profile-card {
-        width: 175px;
+        width: 145px;
         background: #fff;
         border: #D870DB 5px solid;
         margin-left: 5px;
@@ -319,12 +319,10 @@ li:hover {
     }
 
     .profile-sinopse {
-        width: 260px;
-        font-size: 6px;
+        width: 800px;
+        font-size: 8px;
         margin-right: 10px;
         padding: 5px;
-        border: #D870DB 5px solid;
-        border-radius: 10px;
     }
 
     .project-card {
